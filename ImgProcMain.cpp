@@ -95,7 +95,7 @@ int main()
 	imshow("color", imgColor);
 	imshow("gray", imgGray);
 
-	waitKey(50000);
+	waitKey(30000);
 
 	return 0;
 }
