@@ -14,6 +14,7 @@ using namespace cv;
 #define canny_edge_detection 1
 
 #if canny_edge_detection
+
 int main(int argc, char* argv) {
 
 
