@@ -14,6 +14,7 @@ using namespace cv;
 #define canny_edge_detection 1
 
 #if canny_edge_detection
+
 int main(int argc, char* argv) {
 
 
@@ -94,7 +95,7 @@ int main()
 	imshow("color", imgColor);
 	imshow("gray", imgGray);
 
-	waitKey(50000);
+	waitKey(30000);
 
 	return 0;
 }
