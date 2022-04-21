@@ -21,3 +21,8 @@ using namespace cv;
 void cornerDetector(Mat input);
 void opticalFlow();
 void imageSegmentation_SLIC();
+void ImageSegmentation_GrabCut();
+void ImageSegmentation_GrabCut_mask();
+void siliencyDetection();
+void grabCut_Saliency(Mat input, float* SR_saliency);
+void computeSaliencyMap(Mat image, float *SR_saliency);

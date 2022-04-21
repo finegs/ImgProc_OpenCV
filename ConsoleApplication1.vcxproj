@@ -82,7 +82,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(OPENCV_HOME)\..\..\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(OPENCV_HOME)\..\..\include;D:\Dev\git\imageproc\ConsoleApplication1\ConsoleApplication1\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(OPENCV_HOME)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -157,15 +157,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CornerDetector.cpp" />
-    <ClCompile Include="ImgProcMain.cpp" />
+    <ClCompile Include="ImageSegmentation_GrabCut.cpp" />
+    <ClCompile Include="ImageSegmentation_SLIC.cpp" />
+    <ClCompile Include="ImageProcessingMain.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OpticalFlow.cpp" />
+    <ClCompile Include="SLIC.cpp" />
+    <ClCompile Include="SpectralResidual.cpp" />
+    <ClCompile Include="test_model.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="test.bmp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp" />
+    <ClInclude Include="SLIC.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

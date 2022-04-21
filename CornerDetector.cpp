@@ -8,7 +8,7 @@ void cornerDetector(Mat input)
 	int height, width;
 	float conv_x, conv_y;
 	float IxIx, IyIy, IxIy, det, tr;
-	float k = 0.04, th = 200;
+	float k = 0.04f, th = 200;
 	float min = 1000000, max = -1000000;
 
 	Scalar c;
