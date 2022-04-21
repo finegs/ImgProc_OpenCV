@@ -1,4 +1,4 @@
-﻿
+﻿#if 0
 
 #include <iostream>
 #include <opencv2/imgproc.hpp>
@@ -101,3 +101,4 @@ int main()
 }
 #endif
 
+#endif

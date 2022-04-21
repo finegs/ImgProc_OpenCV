@@ -156,10 +156,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CornerDetector.cpp" />
     <ClCompile Include="ImgProcMain.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OpticalFlow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="test.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
